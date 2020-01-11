@@ -1,0 +1,12 @@
+dias = int(input())
+um_ano = 365
+um_mes = 30
+
+ano = dias // um_ano
+qtd_dias = dias % um_ano
+mes = qtd_dias // um_mes
+dias = qtd_dias % um_mes
+
+print('%i ano(s)' %ano)
+print('%i mes(es)' %mes)
+print('%i dia(s)' %dias)
