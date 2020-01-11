@@ -1,0 +1,8 @@
+c1, n1, v1 = input().split(" ")
+c2, n2, v2 = input().split(" ")
+n1 = float(n1)
+v1 = float(v1)
+n2 = float(n2)
+v2 = float(v2)
+TOTAL = (n1 * v1) + (n2 * v2)
+print('VALOR A PAGAR: R$ %.2F' %TOTAL)
